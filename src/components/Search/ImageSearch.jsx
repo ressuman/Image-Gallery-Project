@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 
 export default function ImageSearch({ searchText }) {
   const [text, setText] = useState("");
@@ -52,3 +53,7 @@ export default function ImageSearch({ searchText }) {
     </form>
   );
 }
+
+ImageSearch.propTypes = {
+  searchText: PropTypes.string.isRequired,
+};

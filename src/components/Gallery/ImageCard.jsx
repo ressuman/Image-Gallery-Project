@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export default function ImageCardGallery({ image }) {
   const tags = image.tags.split(",");
@@ -57,3 +58,7 @@ export default function ImageCardGallery({ image }) {
     </div>
   );
 }
+
+ImageCardGallery.propTypes = {
+  image: PropTypes.object.isRequired,
+};

@@ -41,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["flowbite", "npm:2.3.0"],\
             ["flowbite-react", "virtual:2340bfe7a6e2ac6783fe10e39c2d5ff882b2bda880c1f06427ced99f2741e918cc1d22c0d04955b7da2e0476eb3e9b51ee8611a6ec4a51c561f187e6ea35ddd0#npm:0.9.0"],\
             ["postcss", "npm:8.4.38"],\
+            ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:2340bfe7a6e2ac6783fe10e39c2d5ff882b2bda880c1f06427ced99f2741e918cc1d22c0d04955b7da2e0476eb3e9b51ee8611a6ec4a51c561f187e6ea35ddd0#npm:18.2.0"],\
             ["tailwindcss", "npm:3.4.3"],\
@@ -4092,6 +4093,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["flowbite", "npm:2.3.0"],\
             ["flowbite-react", "virtual:2340bfe7a6e2ac6783fe10e39c2d5ff882b2bda880c1f06427ced99f2741e918cc1d22c0d04955b7da2e0476eb3e9b51ee8611a6ec4a51c561f187e6ea35ddd0#npm:0.9.0"],\
             ["postcss", "npm:8.4.38"],\
+            ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:2340bfe7a6e2ac6783fe10e39c2d5ff882b2bda880c1f06427ced99f2741e918cc1d22c0d04955b7da2e0476eb3e9b51ee8611a6ec4a51c561f187e6ea35ddd0#npm:18.2.0"],\
             ["tailwindcss", "npm:3.4.3"],\
