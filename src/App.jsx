@@ -14,9 +14,10 @@ function App() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `https://pixabay.com/api/?key=${process.env.REACT_APP_PIXABAY_API_KEY}&q=${term}&image_type=photo`
+          `${process.env.REACT_APP_PIXABAY_API_URL}/?key=${process.env.REACT_APP_PIXABAY_API_KEY}&q=${term}&image_type=photo`
         );
         setImages(response.data.hits);
+        console.log(response.data.hits);
         setLoading(false);
       } catch (error) {
         setError("Error fetching data. Please try again later.");
